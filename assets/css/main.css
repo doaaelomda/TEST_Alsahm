@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --default-color: black; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #545454; /* Color for headings, subheadings and title throughout the website */
   --accent-color: rgb(34, 173, 226); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -151,7 +151,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: var(--background-color);
+  background-color: var(--accent-color);
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -160,7 +160,7 @@ h6 {
 
 .header .topbar .contact-info i {
   font-style: normal;
-  color: var(--accent-color);
+  color: #fff !important;
 }
 
 .header .topbar .contact-info i a,
