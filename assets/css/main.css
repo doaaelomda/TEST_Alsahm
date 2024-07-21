@@ -851,7 +851,7 @@ section,
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
-  animation: fadeInDown 1s both;
+  /* animation: fadeInDown 1s both; */
 }
 
 .hero .carousel-item h2 span {
@@ -865,7 +865,7 @@ section,
 }
 
 .hero .carousel-item p {
-  animation: fadeInDown 1s both 0.2s;
+  /* animation: fadeInDown 1s both 0.2s; */
   font-size:17px;
 }
 
