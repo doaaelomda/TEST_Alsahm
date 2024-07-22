@@ -951,6 +951,8 @@ section,
   .hero .carousel-indicators li {
     margin-bottom: 20px;
   }
+}
+@media (max-width: 768px){
   .carousel-item .img-fluid {
     transform: translate(0px, 60px) !important;
     width: 100%;
