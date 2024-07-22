@@ -709,7 +709,7 @@ h6 {
 }
 
 .page-title h1 {
-  font-size: 28px;
+  font-size: 3rem;
   font-weight: 700;
   margin: 0;
 }
@@ -726,8 +726,12 @@ h6 {
 
 .page-title .breadcrumbs ol li+li {
   padding-left: 10px;
+  font-size:2rem;
 }
 
+.page-title .breadcrumbs ol li a{
+  font-size:2rem;
+}
 .page-title .breadcrumbs ol li+li::before {
   content: "/";
   display: inline-block;
@@ -2323,16 +2327,24 @@ section,
 }
 
 .contact .info-item h3 {
-  font-size: 20px;
-  font-size: 18px;
+  font-size: 30px;
+  /* font-size: 18px; */
   font-weight: 700;
   margin: 10px 0;
 }
 
+.contact .info-item h6{
+  font-size:25px;
+  font-weight: 600;
+  
+}
+.contact .info-item a{
+  font-size:25px;
+}
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .contact .php-email-form {
