@@ -207,13 +207,13 @@ h6 {
 
 .header .logo {
   line-height: 1;
-  width:25%;
+  /* width:25%; */
 }
 
 .header .logo img {
   max-height: 36px;
   margin-right: 8px;
-  width:50%;
+  width:200px
 }
 
 .header .logo h1 {
@@ -243,7 +243,7 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .navmenu li {
